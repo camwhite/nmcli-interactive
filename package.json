@@ -1,0 +1,27 @@
+{
+  "name": "nmcli-interactive",
+  "version": "0.0.1",
+  "description": "Wrapper around nmcli network manager for linux",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node --experimental-modules --no-warnings index"
+  },
+  "bin": {
+    "nmclii": "./bin/global.sh"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camwhite/nmcli-interactive"
+  },
+  "keywords": [
+    "nmcli",
+    "wifi",
+    "linux"
+  ],
+  "author": "camwhite",
+  "license": "MIT",
+  "dependencies": {
+    "terminal-kit": "^1.17.5"
+  }
+}
